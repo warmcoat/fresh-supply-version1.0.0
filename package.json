@@ -12,16 +12,19 @@
 		"format": "prettier --write \"./**/*.{html,vue,js,ts,json,md}\" ",
 		"lint:style": "stylelint src/**/*.{css,scss,vue} --cache --fix",
 		"prepare": "husky install",
-    "commitlint": "commitlint --config commitlint.config.cjs -e -V"
-
+		"commitlint": "commitlint --config commitlint.config.cjs -e -V"
 	},
 	"dependencies": {
-		"vue": "^3.4.31"
+		"@types/node": "^20.14.11",
+		"vant": "^4.9.3",
+		"vue": "^3.4.31",
+		"vue-router": "^4.4.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.3.0",
 		"@commitlint/config-conventional": "^19.2.2",
 		"@eslint/js": "^9.7.0",
+		"@vant/auto-import-resolver": "^1.2.1",
 		"@vitejs/plugin-vue": "^5.0.5",
 		"eslint": "^9.7.0",
 		"eslint-config-prettier": "^9.1.0",
@@ -46,6 +49,8 @@
 		"stylelint-scss": "^6.4.1",
 		"typescript": "^5.2.2",
 		"typescript-eslint": "^7.16.1",
+		"unplugin-auto-import": "^0.18.0",
+		"unplugin-vue-components": "^0.27.3",
 		"vite": "^5.3.4",
 		"vue-tsc": "^2.0.24"
 	}
