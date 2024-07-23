@@ -1,3 +1,3 @@
 <template>
-    <div>order页面</div>
+	<div>order页面</div>
 </template>
