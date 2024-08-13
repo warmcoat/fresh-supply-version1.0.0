@@ -19,7 +19,6 @@ watch(active, (nv) => {
 		<van-tabbar-item name="order" icon="bars">订单</van-tabbar-item>
 		<van-tabbar-item name="me" icon="contact">我的</van-tabbar-item>
 	</van-tabbar>
-	<div>nihao</div>
 </template>
 
 <style scoped></style>
